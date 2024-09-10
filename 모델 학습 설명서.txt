@@ -1,0 +1,9 @@
+OpenAI Fine-tuning 생성 방법
+- 필요한 프로그램 : vs code
+1. vs code를 열고 폴더 열기를 클릭하여 'openAI_model_create' 폴더를 연다.
+2. 프로젝트에서 database>input.json을 열고 해당 양식에 맞게 수정 및 추가한다.
+   - ggnzsystem : 시스템 메시지. 모델의 시스템을 설정한다. 캐릭터인 경우 성격과 말투를 여기서 설정한다.
+   - instruction : 사용자 질문. 사용자가 예상되는 질문을 작성한다.
+   - output : 챗봇 답변. 예상되는 질문에 대한 예상되는 챗봇의 응답을 작성한다.
+3. input.json 작성 후 main.py로 이동하여 오른쪽 상단 실행 버튼을 클릭하여 모델을 학습시킨다.
+4. openAi 사이트 열기 - API 오르쪽 상단에 Dashboard 클릭 - 왼쪽 메뉴에서 Fine-tuning에서 확인 가능
